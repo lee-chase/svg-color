@@ -18,6 +18,6 @@
 
 .file-icon.mask {
   background-color: red;
-  -webkit-mask: url(https://ongefb.csb.app/pdf.svg) no-repeat center;
-  mask: url(https://ongefb.csb.app/pdf.svg) no-repeat center;
+  -webkit-mask: url(./pdf-mod.svg) no-repeat center;
+  mask: url(./pdf-mod.svg) no-repeat center;
 }
