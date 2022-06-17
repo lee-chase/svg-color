@@ -1,0 +1,23 @@
+.file-icon {
+  display: block;
+  width: 48px;
+  height: 60px;
+  color: red;
+  fill: white;
+}
+
+.file-icon .file-icon__type {
+  fill: yellow;
+}
+
+.file-icon.filter {
+  /* filter generated using https://isotropic.co/tool/hex-color-to-css-filter/ */
+  filter: invert(14%) sepia(100%) saturate(4458%) hue-rotate(3deg)
+    brightness(99%) contrast(125%);
+}
+
+.file-icon.mask {
+  background-color: red;
+  -webkit-mask: url(https://ongefb.csb.app/pdf.svg) no-repeat center;
+  mask: url(https://ongefb.csb.app/pdf.svg) no-repeat center;
+}
